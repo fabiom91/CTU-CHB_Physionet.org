@@ -4,10 +4,13 @@ Data analysis of CTU-CHB Intrapartum Cardiotocography Database v1.0.0 physionet.
 ## Usage
 
 1. Download the data from here (https://physionet.org/content/ctu-uhb-ctgdb/1.0.0/)[] and rename the folder `physionet_data`
-2. then move the folder into the repository folder:
+2. then move the folder into the repository folder
+3. create the following folders into the repo folder: `database/signals`
 ```
 CTU-CHB_Physionet.org/
   ...
+  database/
+    signals/
   physionet_data/
     1001.dat
     1001.hea
