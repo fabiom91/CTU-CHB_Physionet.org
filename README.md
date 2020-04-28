@@ -16,6 +16,6 @@ CTU-CHB_Physionet.org/
     1001.hea
     ...
 ```
-3. run the main python 3 script: `python create_csv_database.py` or `python3 create_csv_database.py`
+4. run the main python 3 script: `python create_csv_database.py` or `python3 create_csv_database.py`
 
 The script will create a file: `database/ann_db.csv` with all annotations and a `.csv` file for each signal recorded in: `database/signals/<RECORDNAME>.csv`
